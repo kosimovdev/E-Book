@@ -34,10 +34,11 @@ const Setting = () => {
                         <option> UZ </option>
                         <option> EN </option>
                         <option> RU </option>
+                        <option> KOR </option>
                     </Select>
                     <div className="py-3">
                         <p className="my-2">{t?.theme}:</p>
-                        <Switch defaultChecked onChange={onChange} />;
+                        <Switch defaultChecked onChange={onChange} />
                     </div>
 
                     <div className="flex justify-end">
